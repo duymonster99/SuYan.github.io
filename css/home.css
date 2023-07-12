@@ -1,0 +1,87 @@
+/* 
+?       =================================
+todo    Reset
+?       =================================
+*/
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CSS SideBox */
+.SideBox{
+    width: 100%;
+    height: 229px;
+    background-color: rgb(217, 153, 129);
+    text-align: center;
+}
+
+.SideBox__content{
+    height: 100%;
+    box-sizing: border-box;
+   padding-top: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.SideBox__content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.SideBox__content ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.SideBox__content li input{
+    border-radius: 10px;
+    padding: 10px;
+    border-style: initial;
+    margin-right: 10px;
+    outline: none;
+}
+
+.SideBox__content li input[type="Submit"] {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.SideBox__content li input[type="Submit"]:hover{
+    cursor: pointer;
+    background-color: brown;
+    transition: 0.3s;
+}
+
+/* CSS Produce center */
+.produce {
+    display: flex;
+    justify-content: space-between;
+    margin: 111px 300px 10px;
+}
+
+.produce__content {
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produce__content h3{
+    margin-bottom: 15px;
+}
+.produce__content-horizontal {
+    border: 3px solid brown;
+    margin-bottom: 15px;
+    width: 111px;
+}
+
+.produce__content p{
+    text-align: justify;
+}
